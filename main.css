@@ -1,0 +1,123 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#111111;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+header .container{
+    padding-top: 18px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 18px;
+}
+
+header{
+    background-color: #eeeeee;
+}
+
+header .menu-de-nav{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+
+.logo{
+    font-family: 'Press Start 2P', cursive;
+    margin-right: 25px;
+    font-size: 18px;
+    color: #daa520;
+    text-shadow: 3px 3px 1px #111111;
+}
+
+.container nav a{
+    font-size: 14px;
+    text-decoration: none;
+    color: #111111;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+
+/* estilizacao de jogo-capa*/
+.jogo-capa .titulo-jogo-principal{
+    margin-top: 200px;
+    font-size: 50px;
+    color: white;
+    margin-left: 8px;
+    font-weight: bold;
+}
+
+.jogo-capa{
+    background-image: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url("imagens/jogo-capa3.jpg");
+    background-size: cover;
+    height: 500px;
+    color:white;
+    display: flex;
+}
+
+
+.nota{
+    margin-left: 8px;
+    margin-right: 15px;
+    font-size: 18px;
+    color: #daa520;
+    font-weight: bold;
+}
+
+.sinopse{
+    margin-left: 8px;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.botao{
+    background-color: #111111;
+    border: none;
+    color:#eeeeee;
+    padding: 12px 40px;
+    margin-left: 8px;
+    margin-top: 80px;
+    border-radius: 20px;
+    transition: .8s ease all;
+    font-size: 14px;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+.botao:hover{
+    background-color: #eeeeee;
+    color: #111111;
+    cursor: pointer;
+}
+
+.box-jogos{
+    height: 200px;
+    width: 100%;
+    display: block;
+    margin-left: 8px;
+}
+
+.box-jogos:hover{
+    cursor: pointer;
+    height: 205px;
+    width: 700px;
+    border: 2px solid #daa520;
+}
+
+.titulo-populares, .titulo-rpg, .titulo-corrida{
+    color: #eeeeee;
+    font-size: 25px;
+    margin-left: 8px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}

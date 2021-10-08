@@ -1,0 +1,32 @@
+@media screen and (max-width:800px) {
+    header .container{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .botao{
+        width: 300px;
+        margin-top: 20px;
+        padding: 12px 20px;
+    }
+
+    .sinopse{
+        width: 50%;
+        font-size: 14px;
+    }
+
+    .jogo-capa .titulo-jogo-principal{
+        margin-top: 100px;
+        font-size: 30px;
+        color: white;
+        margin-left: 8px;
+        font-weight: bold;
+    }
+}
+
+@media screen and (min-width:1000px) {
+    .sinopse{
+        width: 50%;
+    }
+
+}
