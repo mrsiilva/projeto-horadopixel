@@ -26,6 +26,10 @@ header .menu-de-nav{
     margin-left: 20px;
 }
 
+header .menu-de-nav a:hover{
+    text-decoration: underline;
+}
+
 
 .logo{
     font-family: 'Press Start 2P', cursive;
@@ -83,7 +87,7 @@ header .menu-de-nav{
     color:#eeeeee;
     padding: 12px 40px;
     margin-left: 8px;
-    margin-top: 80px;
+    margin-top: 70px;
     border-radius: 20px;
     transition: .8s ease all;
     font-size: 14px;
@@ -120,4 +124,7 @@ header .menu-de-nav{
     margin-left: 8px;
     margin-top: 10px;
     margin-bottom: 5px;
+    font-weight: bold;
 }
+
+
